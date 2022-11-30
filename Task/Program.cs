@@ -15,9 +15,15 @@ void SecondArray(string[] array1, string[] array2)
 
 void PrintArray(string[] array)
 {
+    Console.Write("[");
     for (int i = 0; i < array.Length; i++)
     {
         Console.Write($"{array[i]} ");
     }
-    Console.WriteLine();
+    Console.Write("]");
 }
+
+PrintArray(array1);
+SecondArray(array1, array2);
+Console.Write(" -> ");
+PrintArray(array2);
