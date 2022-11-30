@@ -23,7 +23,7 @@ void PrintArray(string[] array)
     Console.Write("]");
 }
 
-PrintArray(array1);
 SecondArray(array1, array2);
+PrintArray(array1);
 Console.Write(" -> ");
 PrintArray(array2);
